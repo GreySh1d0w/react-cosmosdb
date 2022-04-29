@@ -1,0 +1,9 @@
+#hero:hover {
+  background-color: #00d1b2;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

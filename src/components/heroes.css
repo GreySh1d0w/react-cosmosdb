@@ -1,0 +1,10 @@
+.maingg {
+    display: flex;
+    flex-direction: column;
+  }
+
+.editarea {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
