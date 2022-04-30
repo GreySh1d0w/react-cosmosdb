@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const heroSchema = new Schema(
   {
-    priority: { type: Number, required: true, unique: true },
-    task: String,
-    timedate: String
+    id: { type: Number, required: true, unique: true },
+    name: String,
+    saying: String
   },
   { autoIndex: false }
 );
